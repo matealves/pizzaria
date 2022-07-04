@@ -1,4 +1,3 @@
-<br>
 <div>
 <h1>Pizzaria </h1>
 </div>
