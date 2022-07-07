@@ -11,7 +11,6 @@
  <!-- <a href="#visao">• Visão geral</a> <br> -->
  <a href="#leng">• Skills utilizadas</a>
  <br>
- <br>
  <a href="#contato">• Contato</a>  
 </p>
 <br>
