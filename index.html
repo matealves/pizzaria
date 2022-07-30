@@ -1,123 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Pizzaria</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8b4042ccf0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Pizzaria</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="models">
-      <div class="pizza-item">
-        <a href="">
-          <div class="pizza-item--img"><img src="" /></div>
-          <div class="pizza-item--add">+</div>
-        </a>
-        <div class="pizza-item--price">R$ --</div>
-        <div class="pizza-item--name">--</div>
-        <div class="pizza-item--desc">--</div>
-      </div>
-      <div class="cart--item">
-        <img src="" />
-        <div class="cart--item-nome">--</div>
-        <div class="cart--item--qtarea">
-          <button class="cart--item-qtmenos">-</button>
-          <div class="cart--item--qt">1</div>
-          <button class="cart--item-qtmais">+</button>
+    <header class="header"></header>
+
+    <main class="home">
+        <div class="home-area">
+            <section class="left-home">
+                <div class="left-area">
+                    <div class="left-text1">Pizzas especiais</div>
+                    <div class="left-text2">Confira no cardápio</div>
+                    <div class="left-text3">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Incidunt, vitae
+                        beatae sint magnam, libero harum quae nobis
+                        veritatis iure hic provident illo porro.</div>
+                    <a href="pizzas.html">
+                        <div class="button">Fazer pedido <i class="fa-solid
+                                    fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="right-home">
+                <div class="right-image">
+                    <img src="images/pizza-desenho.png" alt="pizza.png">
+                </div>
+            </section>
         </div>
-      </div>
-    </div>
-    <header>
-      <div class="menu-openner"><span>0</span>🛒</div>
-    </header>
-    <main>
-      <h1 class="titulo--h1">Pizzas</h1>
-      <div class="pizza-area"></div>
     </main>
-    <aside>
-      <div class="cart--area">
-        <div class="menu-closer">❌</div>
-        <h1>Suas Pizzas</h1>
-        <div class="cart"></div>
-        <div class="cart--details">
-          <div class="cart--totalitem entrega">
-            <span>Taxa de entrega</span>
-            <span>R$ --</span>
-          </div>
-          <div class="cart--totalitem subtotal">
-            <span>Subtotal</span>
-            <span>R$ --</span>
-          </div>
-          <div class="cart--totalitem desconto">
-            <span>Desconto (-10%)</span>
-            <span>R$ --</span>
-          </div>
-          <div class="cart--totalitem total big">
-            <span>Total</span>
-            <span>R$ --</span>
-          </div>
-          <div class="cart--finalizar">Finalizar a compra</div>
-        </div>
-      </div>
-    </aside>
-    <div class="pizzaWindowArea">
-      <div class="pizzaWindowBody">
-        <div class="pizzaInfo--cancelMobileButton">← Voltar</div>
-        <div class="pizzaBig">
-          <img src="" />
-        </div>
-        <div class="pizzaInfo">
-          <h1>--</h1>
-          <div class="pizzaInfo--desc">--</div>
-          <div class="pizzaInfo--sizearea">
-            <div class="pizzaInfo--sector">Tamanho</div>
-            <div class="pizzaInfo--sizes">
-              <div data-key="0" class="pizzaInfo--size">
-                PEQUENA <span>--</span>
-              </div>
-              <div data-key="1" class="pizzaInfo--size">
-                MÉDIO <span>--</span>
-              </div>
-              <div data-key="2" class="pizzaInfo--size selected">
-                GRANDE <span>--</span>
-              </div>
-            </div>
-          </div>
-          <div class="pizzaInfo--pricearea">
-            <div class="pizzaInfo--sector">Preço</div>
-            <div class="pizzaInfo--price">
-              <div class="pizzaInfo--actualPrice">R$ --</div>
-              <div class="pizzaInfo--qtarea">
-                <button class="pizzaInfo--qtmenos">-</button>
-                <div class="pizzaInfo--qt">1</div>
-                <button class="pizzaInfo--qtmais">+</button>
-              </div>
-            </div>
-          </div>
-          <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
-          <div class="pizzaInfo--cancelButton">Cancelar</div>
-        </div>
-      </div>
-    </div>
-    <div class="success pizzaWindowArea">
-      <div class="pizzaWindowBody success">
-        <img class="successImg" src="images/sucess_icon.png" alt="Sucesso" />
-        <h1>Seu pedido foi finalizado!</h1>
-      </div>
-    </div>
-  </div>
+    <footer>
+        <a href="https://www.linkedin.com/in/mateusalvesds/" target="_blank">© Developed by Mateus Alves</a>
+    </footer>
 
-  <footer>
-    <a href="https://www.linkedin.com/in/mateusalvesds/" target="_blank">© Developed by Mateus Alves</a>
-  </footer>
-
-  <script type="text/javascript" src="js/pizzas.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

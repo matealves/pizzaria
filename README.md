@@ -3,7 +3,7 @@
 </div>
 
 <h3>
-  Projeto desenvolvido para estudos
+  Projeto desenvolvido para portifólio pessoal.
 </h3>
 <br>
 
@@ -28,7 +28,7 @@ Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível
 </h1>
 
 <p align = "center">
-  <img src ="images/img_readme.jpg" alt = "mockup" />
+  <img src ="images/img_readme.jpg" alt = "mockup"/>
 </p>
 <br>
 
@@ -38,6 +38,8 @@ Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível
  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
   <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+      <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
 
 </div>
 <br>
