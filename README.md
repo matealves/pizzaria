@@ -19,7 +19,7 @@
 
 <div id="visao">
 <h1>Visão geral</h1>
-Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível escolher o sabor da pizza desejada, tamanho e quatidade, tudo sendo calculado e exibido <strong>automáticamente</strong> em um modal na tela do usuário. As pizzas são obtidas através de uma requisição na API(em Json) que contém todas as pizzas. Também foi trabalhado as funções de um carrinho de compras, onde é possível acrescentar ou remover a quantidade de pizzas, sendo <strong>calculado em tempo real</strong> o total que o usuário deve pagar, além de um modal confirmando o pedido.
+Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível escolher o sabor da pizza desejada, tamanho e quatidade, tudo sendo calculado e exibido <strong>automáticamente</strong> em um modal na tela do usuário. As pizzas são obtidas através de uma requisição na API que contém todas as pizzas. Também foi trabalhado as funções de um carrinho de compras, onde é possível acrescentar ou remover a quantidade de pizzas, sendo <strong>calculado em tempo real</strong> o total que o usuário deve pagar, além de um modal confirmando o pedido.
 </div>
 <br>
 <br>
