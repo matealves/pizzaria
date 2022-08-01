@@ -1,7 +1,9 @@
 let header = document.querySelector(".header");
 header = header.innerHTML = `<div class="menu-area">
     <div class="logo">
-        <img src="images/logo_pizza.png" alt="logo.png">
+        <a href="index.html">
+            <img src="images/logo_pizza.png" alt="logo_pizza.png">
+        </a>
     </div>
     <nav>
         <div class="container-menu-mobile">
