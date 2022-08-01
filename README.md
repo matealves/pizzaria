@@ -8,12 +8,12 @@
 <br>
 
 <p>
+ <a href="#api">• Exemplo API de Pizzas</a> 
+ <br>
  <!-- <a href="#visao">• Visão geral</a> <br> -->
  <a href="#leng">• Skills utilizadas</a>
  <br>
  <a href="#contato">• Contato</a>
- <br>
- <a href="#api">• Exemplo API de Pizzas</a> 
 </p>
 <br>
 
