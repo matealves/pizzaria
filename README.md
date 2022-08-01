@@ -24,7 +24,7 @@ Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://matealves.github.io/pizzaria/" target="_blank">Testar</a> 
+<a href="https://matealves.github.io/pizzaria/index.html" target="_blank">Testar</a> 
 </h1>
 
 <p align = "center">

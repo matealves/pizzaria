@@ -21,7 +21,7 @@ header = header.innerHTML = `<div class="menu-area">
                 <a href="index.html">
                     <li>Início</li>
                 </a>
-                <a href="https://matealves.github.io/pizzaria/menu.html">
+                <a href="menu.html">
                     <li>Pizzas</li>
                 </a>
                 <a href="https://github.com/matealves" target="_blank">
