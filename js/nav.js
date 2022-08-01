@@ -21,7 +21,7 @@ header = header.innerHTML = `<div class="menu-area">
                 <a href="index.html">
                     <li>Início</li>
                 </a>
-                <a href="menu.html">
+                <a href="https://matealves.github.io/pizzaria/menu.html">
                     <li>Pizzas</li>
                 </a>
                 <a href="https://github.com/matealves" target="_blank">
@@ -37,9 +37,7 @@ header = header.innerHTML = `<div class="menu-area">
 
 let activePage = window.location.pathname;
 let navLinks = document.querySelectorAll("nav .menu a").forEach((link) => {
-  if (window.location.pathname == "/pizzaria/") {
-    document.querySelector("nav .menu a").classList.add("active");
-  } else if (link.href.includes(`${activePage}`)) {
+  if (link.href.includes(`${activePage}`)) {
     link.classList.add("active");
   }
 });
