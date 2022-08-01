@@ -37,11 +37,9 @@ header = header.innerHTML = `<div class="menu-area">
 
 let activePage = window.location.pathname;
 let navLinks = document.querySelectorAll("nav .menu a").forEach((link) => {
-  if (link.href == "index.html") {
-    link.classList.add("active");
-    return;
-  }
-  if (link.href.includes(`${activePage}`)) {
+  if (window.location.pathname == "/pizzaria/") {
+    document.querySelector("nav .menu a").classList.add("active");
+  } else if (link.href.includes(`${activePage}`)) {
     link.classList.add("active");
   }
 });
