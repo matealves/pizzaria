@@ -139,6 +139,7 @@ function updateCart() {
 
 document.querySelector(".cart--finalizar").addEventListener("click", () => {
   cart = [];
+  localStorage.clear();
   updateCart();
   document.querySelector(".loader-content").classList.add("display");
 
