@@ -132,6 +132,7 @@ function updateCart() {
       currency: "BRL",
     })}`;
   } else {
+    localStorage.clear();
     document.querySelector("aside").classList.remove("show"); //Closet cart
     document.querySelector("aside").style.left = "100vw";
   }
