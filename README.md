@@ -11,7 +11,9 @@
  <!-- <a href="#visao">• Visão geral</a> <br> -->
  <a href="#leng">• Skills utilizadas</a>
  <br>
- <a href="#contato">• Contato</a>  
+ <a href="#contato">• Contato</a>
+ <br>
+ <a href="#api">• Exemplo API de Pizzas</a> 
 </p>
 <br>
 
@@ -31,7 +33,9 @@ Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível
   <img src ="images/img_readme.jpg" alt = "mockup"/>
 </p>
 <br>
-### Exemplo dos dados da API (em JSON):
+
+<h1 align="center" id="api"> Exemplo dos dados da API (em JSON):</h1>
+
 ```
 [
   {
@@ -51,6 +55,7 @@ Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível
     "description": "Molho, muçarela, calabresa fatiada, cebola fatiada e orégano."
   }
 ]
+
 ```
 <br>
 <br>
