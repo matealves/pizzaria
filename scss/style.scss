@@ -256,6 +256,16 @@ aside {
   align-items: center;
   color: $cor-14;
   padding: 35px;
+  flex-direction: column;
+
+  .pedido-finalizado {
+    display: flex;
+  }
+
+  span {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+  }
 }
 aside.show {
   width: 27%;
@@ -725,9 +735,20 @@ footer {
     align-items: center;
     text-align: center;
     padding: 0 25px 20px;
+
+    .pedido-finalizado {
+      margin-top: 90px;
+      height: 90px;
+    }
+
+    span {
+      font-size: 12px;
+      padding: 20px 0;
+    }
   }
   .success-img {
-    margin: 80px 0 20px;
+    margin: 0 0 20px;
+    line-height: 63px;
   }
   .pizzaWindowBody {
     width: 100vw;

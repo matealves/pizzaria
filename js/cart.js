@@ -7,7 +7,7 @@ document
         .querySelector(".pizzaInfo--size.selected")
         .getAttribute("data-key")
     );
-    let identifier = pizzaJson[modalKey].id + "@" + size; //concatena id da pizza e tamanho
+    let identifier = pizzas[modalKey].id + "@" + size; //concatena id da pizza e tamanho
     let keyItem = cart.findIndex((item) => item.identifier == identifier); //return
     if (keyItem > -1) {
       cart[keyItem].qtd += modalQt; // aumenta a qtd caso item já esteja no cart
@@ -15,15 +15,20 @@ document
       //## Adicionando objeto na variável "cart".
       cart.push({
         identifier,
-        id: pizzaJson[modalKey].id,
+        id: pizzas[modalKey].id,
         size,
-        price: pizzaJson[modalKey].price[size],
+        price: pizzas[modalKey].price[size],
         qtd: modalQt,
       });
     }
     updateCart();
     closeModal();
+    saveCart();
   });
+//Salvar itens do carrinho no localStorage
+const saveCart = () => {
+  localStorage.setItem("pizza_cart", JSON.stringify(cart));
+};
 
 document.querySelector(".menu-openner").addEventListener("click", () => {
   if (cart.length > 0) {
@@ -49,7 +54,7 @@ function updateCart() {
     let total = 0;
 
     for (let i in cart) {
-      let pizzaItem = pizzaJson.find((item) => item.id == cart[i].id);
+      let pizzaItem = pizzas.find((item) => item.id == cart[i].id);
       pizzasValor += cart[i].price * cart[i].qtd;
 
       let pizzaSizeName;
