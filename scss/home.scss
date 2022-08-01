@@ -392,8 +392,29 @@ footer {
     margin-top: 10px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .right-image img {
     width: 130%;
+  }
+  body {
+    height: 100vh;
+  }
+  footer {
+    line-height: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    height: 100%;
+  }
+  footer {
+    line-height: 100px;
+  }
+  .left-text1 {
+    font-size: 1.8rem;
+  }
+  .button {
+    width: 60%;
   }
 }

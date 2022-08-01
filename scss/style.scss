@@ -230,8 +230,8 @@ html {
   font-size: 1.2rem;
 }
 .fa-arrow-left {
-  font-size: 1.7rem;
-  color: $cor-12;
+  font-size: 1.6rem;
+  color: $cor-4;
 }
 .menu-closer {
   text-align: center;
@@ -400,14 +400,21 @@ h1 {
   h1 {
     margin-top: 50px;
   }
+
+  .pizzaInfo--desc {
+    font-size: 15px;
+    color: $cor-7;
+    margin-top: 10px;
+    width: 90%;
+  }
 }
-.pizzaInfo .pizzaInfo--desc {
-  //testar dentro
-  font-size: 15px;
-  color: $cor-7;
-  margin-top: 10px;
-  width: 90%;
-}
+// .pizzaInfo .pizzaInfo--desc {
+//   //testar dentro
+//   font-size: 15px;
+//   color: $cor-7;
+//   margin-top: 10px;
+//   width: 90%;
+// }
 .pizzaInfo--sector {
   color: $cor-12;
   text-transform: uppercase;
@@ -732,35 +739,60 @@ footer {
   }
   .pizzaWindowBody.modal {
     padding: 25px 40px;
+    height: 100vh;
   }
   .pizzaBig img {
-    width: 75%;
+    width: 60%;
     height: auto;
   }
   .pizzaInfo h1 {
+    margin-top: 5px;
+    font-size: 22px;
+  }
+  .pizzaInfo {
+    .pizzaInfo--desc {
+      font-size: 12px;
+    }
+  }
+  .pizzaInfo--sector {
+    font-size: 12px;
     margin-top: 20px;
-    font-size: 25px;
   }
   .pizzaInfo--price {
     justify-content: space-between;
+    margin-right: 10px;
+
+    .pizzaInfo--actualPrice {
+      font-size: 22px;
+    }
+  }
+  .pizzaInfo--size {
+    padding: 10px;
+    font-size: 12px;
+
+    span {
+      font-size: 10px;
+    }
   }
   .pizzaInfo--qtarea {
-    height: 50px;
+    height: 40px;
 
     button {
-      font-size: 25px;
-      padding: 0px 18px;
+      font-size: 23px;
+      padding: 0px 13px;
     }
   }
   .pizzaInfo--qt {
-    line-height: 50px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 15px;
   }
   .pizzaInfo--addButton {
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     text-align: center;
-    margin: 30px auto;
+    margin: 18px auto;
+    padding: 15px 20px;
+    border-radius: 10px;
   }
   .pizzaInfo--cancelButton {
     display: none;
