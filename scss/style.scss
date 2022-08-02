@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 @import "colors.scss";
+$width-area: 1300px;
 
 * {
   box-sizing: border-box;
@@ -88,7 +89,7 @@ body {
   justify-content: center;
 }
 .container-area {
-  width: 85%;
+  width: $width-area;
   display: flex;
   flex-direction: row;
   margin: 25px 0;
@@ -115,7 +116,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: $width-area;
   background: $cor-1;
 }
 .logo {
