@@ -2,6 +2,7 @@
 
 @import "colors.scss";
 $width-area: 1300px;
+$padding-area: 8%;
 
 * {
   box-sizing: border-box;
@@ -261,6 +262,12 @@ footer {
   .fa-arrow-right {
     margin-left: 7px;
     font-size: 0.8rem;
+  }
+}
+@media (max-width: 1300px) {
+  .menu-area,
+  .home-area {
+    padding: 0 $padding-area;
   }
 }
 @media (max-width: 1010px) {

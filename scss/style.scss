@@ -2,6 +2,7 @@
 
 @import "colors.scss";
 $width-area: 1300px;
+$padding-area: 8%;
 
 * {
   box-sizing: border-box;
@@ -631,6 +632,12 @@ footer {
       left: 0%;
       width: 100%;
     }
+  }
+}
+@media (max-width: 1300px) {
+  .menu-area,
+  .container-area {
+    padding: 0 $padding-area;
   }
 }
 @media (max-width: 1250px) {
