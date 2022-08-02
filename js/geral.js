@@ -8,10 +8,8 @@ localStorage.getItem("pizza_cart")
   ? (cart = JSON.parse(localStorage.getItem("pizza_cart")))
   : (cart = []);
 
-const api = fetch(
-  "https://matealves.github.io/pizzaria/apiData.json"
-)
-  .then((response) => response.json())
+const api = fetch("https://matealves.github.io/pizzaria/apiData.json")
+  .then(async (response) => await response.json())
   .then((data) => {
     pizzas = data;
 
@@ -46,9 +44,9 @@ const api = fetch(
         document.querySelector(".pizzaInfo h1").innerHTML = pizzas[key].name;
         document.querySelector(".pizzaInfo--desc").innerHTML =
           pizzas[key].description;
-        document.querySelector(
-          ".pizzaInfo--actualPrice"
-        ).innerHTML = `${pizzas[key].price[2].toLocaleString("pt-br", {
+        document.querySelector(".pizzaInfo--actualPrice").innerHTML = `${pizzas[
+          key
+        ].price[2].toLocaleString("pt-br", {
           style: "currency",
           currency: "BRL",
         })}`;
@@ -62,8 +60,7 @@ const api = fetch(
             if (sizeIndex == 2) {
               size.classList.add("selected");
             }
-            size.querySelector("span").innerHTML =
-              pizzas[key].sizes[sizeIndex];
+            size.querySelector("span").innerHTML = pizzas[key].sizes[sizeIndex];
 
             size.addEventListener("click", () => {
               //Altera a cor do botão ao clicar

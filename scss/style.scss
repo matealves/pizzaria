@@ -260,6 +260,7 @@ aside {
 
   .pedido-finalizado {
     display: flex;
+    align-items: center;
   }
 
   span {
@@ -737,17 +738,18 @@ footer {
     padding: 0 25px 20px;
 
     .pedido-finalizado {
-      margin-top: 90px;
-      height: 90px;
+      padding-top: 30px;
+      flex-direction: column;
     }
 
     span {
+      display: block;
       font-size: 12px;
-      padding: 20px 0;
+      padding: 15px 0;
     }
   }
   .success-img {
-    margin: 0 -20px 20px 0;
+    margin: 30px 20px 0;
     line-height: 63px;
   }
   .pizzaWindowBody {
