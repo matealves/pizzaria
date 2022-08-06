@@ -295,7 +295,7 @@ footer {
   }
 }
 
-@media (max-width: 902px) {
+@media (max-width: 744px) {
   .home-area {
     align-items: center;
     flex-direction: column-reverse;
@@ -406,7 +406,7 @@ footer {
     height: 100vh;
   }
   footer {
-    line-height: 0;
+    line-height: 100px;
   }
 }
 
@@ -414,9 +414,9 @@ footer {
   body {
     height: 100%;
   }
-  footer {
-    line-height: 100px;
-  }
+  // footer {
+  //   line-height: 100px;
+  // }
   .left-text1 {
     font-size: 1.8rem;
   }
