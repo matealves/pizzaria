@@ -231,6 +231,23 @@ html {
   color: $cor-4;
   font-size: 1.2rem;
 }
+.pulse {
+  cursor: pointer;
+  box-shadow: 0 0 0 rgb(250 180 39 / 50%);
+  animation: pulse 2s infinite;
+  border-radius: 50%;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(250 180 39 / 50%);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgb(250 180 39 / 0%);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgb(250 180 39 / 0%);
+  }
+}
 .fa-arrow-left {
   font-size: 1.6rem;
   color: $cor-4;

@@ -21,6 +21,8 @@ document
         qtd: modalQt,
       });
     }
+    document.querySelector(".fa-cart-shopping").classList.add("pulse");
+
     updateCart();
     closeModal();
     saveCart();
@@ -142,6 +144,7 @@ document.querySelector(".cart--finalizar").addEventListener("click", () => {
   cart = [];
   localStorage.clear();
   updateCart();
+  document.querySelector(".fa-cart-shopping").classList.remove("pulse");
   document.querySelector(".loader-content").classList.add("display");
 
   setTimeout(() => {
